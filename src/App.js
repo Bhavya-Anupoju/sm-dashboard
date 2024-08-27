@@ -1,5 +1,6 @@
 import './App.css';
 import { ThemeProvider } from './Components/Theme';
+import { Posts } from './Pages/Posts';
 import { Profile } from './Pages/Profile';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <ThemeProvider>
     <div className="App">
       <Profile />
+      <Posts />
     </div>  
     </ThemeProvider>
   );
